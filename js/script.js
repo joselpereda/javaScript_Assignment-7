@@ -41,7 +41,7 @@ empForm.addEventListener('submit', (e) => {
     let deleteBtn   = document.createElement('button');
     // REFERENCED EXAMPLE PRESENTED BY ZAK
     deleteBtn.className = 'btn btn-sm btn-danger delete';
-    deleteBtn.appendChild(document.createTextNode('X'));
+    deleteBtn.appendChild(document.createTextNode('x'));
     cellDelete.appendChild(deleteBtn);
 
     // RESET THE FORM
