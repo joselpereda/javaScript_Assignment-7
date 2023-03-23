@@ -59,7 +59,7 @@ empForm.addEventListener('submit', (e) => {
 empTable.addEventListener('click', (e) => {
     // REFERENCED EXAMPLE PRESENTED BY ZAK
     if (e.target.classList.contains('delete')) {
-        if (confirm('Are you sure you want to delete this employee?')) {
+        if (confirm('Delete the selected employee?')) {
             empTable.deleteRow(e.target.parentElement.parentElement.rowIndex);
             count--;
             empCount.value = `(${count})`;
